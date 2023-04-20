@@ -1,0 +1,25 @@
+.App {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: calc(8px + 2vmin);
+  color:white;
+}
+
+.meeting-rooms {
+  height: 50vh;
+  width: 50vw;
+  margin: 30px;
+}
+
+.meeting-room-details {
+  height: 50vh;
+  width: 50vw;
+  margin: 30px;
+}
+
+.meeting-rooms-table {
+  cursor: pointer;
+}
