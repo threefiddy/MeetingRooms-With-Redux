@@ -33,7 +33,6 @@ export const actions = {
     setMeetingRoom: (selectedMeetingRoom: IMeetingRoom) => (
         dispatch: Dispatch<MeetingRoomsDispatchTypes>
     ) => {
-        console.log("hkjsdethnksdj", selectedMeetingRoom)
         dispatch({
             type: MEETINGROOM_SUCCESS,
             payload: selectedMeetingRoom,
