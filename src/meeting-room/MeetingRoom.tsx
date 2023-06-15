@@ -19,15 +19,12 @@ const MeetingRoomsPage: React.FC<MeetingRoomProps> = props => {
   return (
     <>
       <h2>Meeting Rooms</h2>
-      <table>
+      <table className="meeting-room-table-styling">
         <tbody>
           {props.meetingRooms &&
             props.meetingRooms.map(x => (
-              <tr key={x.Id} onClick={((e) => setSelectedMeetingRoom(e, x))}>
-                <th>{x.Id}</th>
+              <tr key={x.Id} onClick={((e) => setSelectedMeetingRoom(e, x))} className="meeting-room-row-styling">
                 <th>{x.Name}</th>
-                <th>{x.Location}</th>
-                <th>{x.RoomCapacity}</th>
               </tr>
             ))}
         </tbody>

@@ -4,10 +4,19 @@
   display: flex;
   font-size: calc(8px + 2vmin);
   color: white;
+  text-align: center;
 }
 
 .meeting-room-styling {
   height: 50%;
   width: 50%;
   padding: 30px;
+}
+
+.meeting-room-table-styling {
+  display: inline;
+}
+
+.meeting-room-row-styling {
+  cursor: pointer;
 }
